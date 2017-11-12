@@ -12,6 +12,11 @@
 		6739BBE91FB77AE100FFF883 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6739BBE71FB77AE100FFF883 /* Main.storyboard */; };
 		6739BBEB1FB77AE100FFF883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6739BBEA1FB77AE100FFF883 /* Assets.xcassets */; };
 		6739BBEE1FB77AE100FFF883 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6739BBEC1FB77AE100FFF883 /* LaunchScreen.storyboard */; };
+		6739BBF61FB78D5900FFF883 /* InterpretationMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6739BBF51FB78D5900FFF883 /* InterpretationMethod.swift */; };
+		6739BBF81FB79A1800FFF883 /* SecondLevelInterp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6739BBF71FB79A1800FFF883 /* SecondLevelInterp.swift */; };
+		6739BBFA1FB81AB000FFF883 /* ViewsManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6739BBF91FB81AB000FFF883 /* ViewsManagement.swift */; };
+		6739BC021FB86FF900FFF883 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6739BC011FB86FF900FFF883 /* MainTableViewController.swift */; };
+		67C141191FB88A8D00015699 /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C141181FB88A8D00015699 /* RulesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		6739BBEA1FB77AE100FFF883 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6739BBED1FB77AE100FFF883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6739BBEF1FB77AE100FFF883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6739BBF51FB78D5900FFF883 /* InterpretationMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterpretationMethod.swift; sourceTree = "<group>"; };
+		6739BBF71FB79A1800FFF883 /* SecondLevelInterp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondLevelInterp.swift; sourceTree = "<group>"; };
+		6739BBF91FB81AB000FFF883 /* ViewsManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewsManagement.swift; sourceTree = "<group>"; };
+		6739BC011FB86FF900FFF883 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		67C141181FB88A8D00015699 /* RulesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +66,12 @@
 			children = (
 				6739BBE31FB77AE100FFF883 /* AppDelegate.swift */,
 				6739BBE51FB77AE100FFF883 /* ViewController.swift */,
+				6739BBF51FB78D5900FFF883 /* InterpretationMethod.swift */,
+				6739BBF71FB79A1800FFF883 /* SecondLevelInterp.swift */,
+				6739BC011FB86FF900FFF883 /* MainTableViewController.swift */,
 				6739BBE71FB77AE100FFF883 /* Main.storyboard */,
+				67C141181FB88A8D00015699 /* RulesViewController.swift */,
+				6739BBF91FB81AB000FFF883 /* ViewsManagement.swift */,
 				6739BBEA1FB77AE100FFF883 /* Assets.xcassets */,
 				6739BBEC1FB77AE100FFF883 /* LaunchScreen.storyboard */,
 				6739BBEF1FB77AE100FFF883 /* Info.plist */,
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67C141191FB88A8D00015699 /* RulesViewController.swift in Sources */,
+				6739BBF81FB79A1800FFF883 /* SecondLevelInterp.swift in Sources */,
 				6739BBE61FB77AE100FFF883 /* ViewController.swift in Sources */,
+				6739BBFA1FB81AB000FFF883 /* ViewsManagement.swift in Sources */,
+				6739BBF61FB78D5900FFF883 /* InterpretationMethod.swift in Sources */,
+				6739BC021FB86FF900FFF883 /* MainTableViewController.swift in Sources */,
 				6739BBE41FB77AE100FFF883 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +283,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 34835AJHPN;
 				INFOPLIST_FILE = hackathon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oluroy.hackathon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +297,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 34835AJHPN;
 				INFOPLIST_FILE = hackathon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oluroy.hackathon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +324,7 @@
 				6739BBF41FB77AE100FFF883 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
